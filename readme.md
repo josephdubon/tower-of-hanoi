@@ -22,7 +22,19 @@ https://josephdubon.gitlab.io/PROJECT-NAME-HERE
         b.
         c.
 
-### License
+#### How to Break Down a Project
+
+	1. Read the requirements document in detail.
+		a. Take notes of important points.
+		b. Write down your questions.
+	2. Answer your questions!
+	3. Make a development plan.
+		a. Describe the entire behavior of the program in 3 (or at most 4) steps. Don't use any JavaScript words!
+		b. Break down each item into 4 (or 4) smaller steps by asking the question, "How?".
+		c. Repeat until it's obvious how to turn the step into JS code.
+    4. Write the code!
+
+#### License
 MIT License
 
 Copyright (c) [2020] [Joseph Adonay Dubon]
@@ -44,15 +56,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-##### How to Break Down a Project
-
-	1. Read the requirements document in detail.
-		a. Take notes of important points.
-		b. Write down your questions.
-	2. Answer your questions!
-	3. Make a development plan.
-		a. Describe the entire behavior of the program in 3 (or at most 4) steps. Don't use any JavaScript words!
-		b. Break down each item into 4 (or 4) smaller steps by asking the question, "How?".
-		c. Repeat until it's obvious how to turn the step into JS code.
-    4. Write the code!
