@@ -5,22 +5,26 @@ Short project descrption can go here.
 https://josephdubon.gitlab.io/PROJECT-NAME-HERE
 
 ### Assessment Development Plan
-    1.
-        a.
-        b.
-        c.
-    2.
-        a.
-        b.
-        c.
-    3.
-        a.
-        b.
-        c.
-    4.
-        a.
-        b.
-        c.
+    1. Provide a way to select a disc from the top of a tower
+        a. Click handler on each tower
+         -- tower.addEventListener("click", ___)
+        b. "Pick up" the topmost disc on the tower
+            ?? How do we pick up the "topmost" disc ??
+                The topmost disc is the last element child
+                    tower.lastElementChild()
+    2. Provide a way to "drop" the disc on top of another tower, if the rules alow
+        a. Click handler (same as top)
+        b. See if the disc to drop is smaller than the topmost disc on the tower
+            ?? How do we get the top disc ??
+                The topmost disc is the last element child
+                    tower.lastElementChild()
+            ?? How do we compare the widths of the two discs ??
+                disc1.dataset.width < disc3.dataset.width
+        c. If so, add the disc to the tower
+            tower.appendChild(disc)
+    3. Check to see if the game is over --"winning condition"
+        a. If all four discs are in the third tower, the game is over
+            tower3.childElementCount === 4
 
 #### How to Break Down a Project
 

@@ -138,3 +138,47 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+/* Start Here */
+
+#game {
+    background-color: peachpuff;
+    height: 500px;
+    /* Parent flex container */
+    display: flex;
+}
+
+.tower {
+    border: 1px dashed red;
+    display: flex;
+    /* Set towers to grow at same rate in unison */
+    flex-grow: 1;
+    /*  Set flex reverse */
+    flex-direction: column-reverse;
+}
+
+.disc {
+    height: 100px;
+    border: 1px solid #345;
+    border-radius: 30%;
+}
+
+#disc1 {
+    width: 60%;
+    background-color: purple;
+}
+
+#disc2 {
+    width: 60%;
+    background-color: blue;
+}
+
+#disc3 {
+    width: 60%;
+    background-color: forestgreen;
+}
+
+#disc4 {
+    width: 60%;
+    background-color: forestgreen;
+}
