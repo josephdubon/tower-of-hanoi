@@ -142,19 +142,33 @@ table {
 /* Start Here */
 
 #game {
-    background-color: peachpuff;
-    height: 500px;
     /* Parent flex container */
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: peachpuff;
+    height: 500px;
+}
+
+#hand {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 1;
 }
 
 .tower {
-    border: 1px dashed red;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     /* Set towers to grow at same rate in unison */
     flex-grow: 1;
     /*  Set flex reverse */
     flex-direction: column-reverse;
+    border: 1px dashed red;
+
 }
 
 .disc {
