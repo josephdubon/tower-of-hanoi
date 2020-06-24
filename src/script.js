@@ -20,7 +20,7 @@ const towerClick = function (evt) {
         // Pickup mode
         const disc = tower.lastElementChild
         if (disc) {
-            console.log("You picked up disc " + disc.id)
+            console.log(disc.id + " is now your disc")
             pickedDisc = disc
             document.getElementById("hand").append(pickedDisc)
             // Declare drop mode
@@ -30,7 +30,7 @@ const towerClick = function (evt) {
         }
     } else {
         // Drop mode
-        console.log("You placed a disc onto " + tower.id)
+        console.log("You placed your disc onto " + tower.id)
         tower.append(pickedDisc)
         // Declare pickup mode
         mode = "pickup"
