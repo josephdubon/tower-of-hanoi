@@ -92,8 +92,6 @@ video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
 }
 
@@ -142,10 +140,9 @@ table {
 
 /* Start Here */
 
-h1 {
-    font-size: 30px;
+header {
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 600;
     margin: 25px 0;
 }
@@ -157,7 +154,7 @@ h1 {
     justify-content: space-around;
     align-items: stretch;
     background-color: rgb(235, 235, 235);
-    height: 500px;
+    height: 300px;
 }
 
 #hand {
