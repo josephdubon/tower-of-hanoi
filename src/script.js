@@ -12,8 +12,8 @@ let selectedDisc = null
 const towerClick = function (evt) {
     const tower = evt.currentTarget
     if (mode === "pickup") {
-        // Pickup mode
         const disc = tower.lastElementChild
+        // Pickup mode
         if (disc) {
             console.log("You picked up disc " + disc.id)
             selectedDisc = disc
@@ -31,6 +31,6 @@ const towerClick = function (evt) {
 }
 
 // Declare towers
-const tower1 = document.querySelector("tower1")
-const tower1 = document.querySelector("tower2")
-const tower1 = document.querySelector("tower3")
+const tower1 = document.querySelector("#tower1")
+const tower2 = document.querySelector("#tower2")
+const tower3 = document.querySelector("#tower3")

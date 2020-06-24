@@ -164,12 +164,12 @@ table {
 }
 
 #disc1 {
-    width: 60%;
+    width: 25%;
     background-color: purple;
 }
 
 #disc2 {
-    width: 60%;
+    width: 40%;
     background-color: blue;
 }
 
@@ -179,6 +179,6 @@ table {
 }
 
 #disc4 {
-    width: 60%;
+    width: 80%;
     background-color: yellow;
 }
