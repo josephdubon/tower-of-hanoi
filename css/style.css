@@ -178,6 +178,10 @@ header {
     border: 1px solid rgb(75, 75, 75);
 }
 
+.tower h3 {
+    margin: 15px 0;
+}
+
 .disc {
     height: 60px;
     width: 120px;

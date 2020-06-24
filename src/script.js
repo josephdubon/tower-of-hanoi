@@ -1,5 +1,5 @@
-// Test connection to index.html
-// console.log("Get script-y wit it. Na-Na Na Na N-Na Na.")
+// Intro message in console
+console.log("Hello, friend! Please click on a colored disc to start game...")
 
 // Structure referenced from Randy's demos
 // Thank you Randy
@@ -20,7 +20,7 @@ const towerClick = function (evt) {
         // Pickup mode
         const disc = tower.lastElementChild
         if (disc) {
-            console.log(disc.id + " is now your disc")
+            console.log(disc.id + " is now your disc. Please click on a tower!")
             pickedDisc = disc
             document.getElementById("hand").append(pickedDisc)
             // Declare drop mode
@@ -30,7 +30,7 @@ const towerClick = function (evt) {
         }
     } else {
         // Drop mode
-        console.log("You placed your disc onto " + tower.id)
+        console.log("You placed your disc on " + tower.id + "." + " Please click on another disc.")
         tower.append(pickedDisc)
         // Declare pickup mode
         mode = "pickup"
