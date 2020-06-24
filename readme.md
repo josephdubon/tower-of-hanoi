@@ -15,7 +15,7 @@ and
 Jennifer Schneider (jennmac20123@yahoo.com)
 
 ## GitLab Pages URL
-https://josephdubon.gitlab.io/PROJECT-NAME-HERE
+https://josephdubon.gitlab.io/tower-of-hanoi-partner-project
 
 ### Assessment Development Plan
     1. Provide a way to select a disc from the top of a tower
