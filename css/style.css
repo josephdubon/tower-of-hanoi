@@ -113,6 +113,7 @@ section {
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1;
 }
 
@@ -141,15 +142,22 @@ table {
 
 /* Start Here */
 
+h1 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 25px 0;
+}
+
 #game {
     /* Parent flex container */
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: stretch;
-    background-color: peachpuff;
+    background-color: rgb(235, 235, 235);
     height: 500px;
-    width: 1000px;
 }
 
 #hand {
@@ -170,7 +178,7 @@ table {
     /*  Set flex reverse */
     flex-direction: column-reverse;
     max-width: 33.33333333%;
-    border: 1px dashed red;
+    border: 1px solid rgb(75, 75, 75);
 }
 
 .disc {

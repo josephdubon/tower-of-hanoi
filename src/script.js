@@ -46,3 +46,4 @@ const tower3 = document.querySelector("#tower3")
 tower1.onclick = towerClick
 tower2.onclick = towerClick
 tower3.onclick = towerClick
+
