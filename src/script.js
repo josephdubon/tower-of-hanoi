@@ -25,7 +25,7 @@ const towerClick = function (evt) {
         }
     } else {
         // Drop mode
-        console.log("You placed disc onto " + tower.id)
+        console.log("You placed a disc onto " + tower.id)
         tower.append(pickedDisc)
         // Declare pickup mode
         mode = "pickup"

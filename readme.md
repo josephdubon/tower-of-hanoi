@@ -9,6 +9,11 @@ Only one disk can be moved at a time.
 Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack.
 No disk may be placed on top of a smaller disk.
 
+## Student Team
+Joseph Dubon (josephdubon@pm.me)
+and
+Jennifer Schneider (jennmac20123@yahoo.com)
+
 ## GitLab Pages URL
 https://josephdubon.gitlab.io/PROJECT-NAME-HERE
 
@@ -26,6 +31,12 @@ https://josephdubon.gitlab.io/PROJECT-NAME-HERE
             ?? How do we get the top disc ??
                 The topmost disc is the last element child
                     tower.lastElementChild()
+
+if (pickedDisc < tower.lastElementChild() {
+    // do something
+
+}
+
             ?? How do we compare the widths of the two discs ??
                 disc1.dataset.width < disc3.dataset.width
         c. If so, add the disc to the tower
