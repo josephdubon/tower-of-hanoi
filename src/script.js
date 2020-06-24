@@ -1,8 +1,13 @@
 // Test connection to index.html
 // console.log("Get script-y wit it. Na-Na Na Na N-Na Na.")
 
-// Structure reference from Randy's demos
+// Structure referenced from Randy's demos
 // Thank you Randy
+
+// Code Team
+// Joseph Dubon (josephdubon@pm.me)
+// and
+// Jennifer Schneider (jennmac20123 @yahoo.com)
 
 // Declare variables
 let mode = "pickup" // pickup mode, drop mode
@@ -37,8 +42,7 @@ const tower1 = document.querySelector("#tower1")
 const tower2 = document.querySelector("#tower2")
 const tower3 = document.querySelector("#tower3")
 
-// Initiate on click event
-tower1.onclick  = towerClick
-tower2.onclick  = towerClick
-tower3.onclick  = towerClick
-
+// Initiate on click event for all 3 towers
+tower1.onclick = towerClick
+tower2.onclick = towerClick
+tower3.onclick = towerClick
