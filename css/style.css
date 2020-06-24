@@ -158,27 +158,27 @@ table {
 }
 
 .disc {
-    height: 100px;
+    height: 60px;
     border: 1px solid #345;
-    border-radius: 30%;
+    border-radius: 25%;
 }
 
 #disc1 {
-    width: 25%;
+    width: 80px;
     background-color: purple;
 }
 
 #disc2 {
-    width: 40%;
+    width: 100px;
     background-color: blue;
 }
 
 #disc3 {
-    width: 60%;
+    width: 120px;
     background-color: forestgreen;
 }
 
 #disc4 {
-    width: 80%;
+    width: 140px;
     background-color: yellow;
 }
