@@ -1,5 +1,5 @@
 // Intro message in console
-console.log("Hello, friend! The object of this game is to stack the colored discs on top of eachother in order from -top to bottom- smallest to largest. Please click on a colored disc to start game...")
+console.log("Hello, friend! The object of this game is to stack the colored discs on top of eachother in order from largest to smallest (bottom to top). Please click on a colored disc to start game...")
 
 // Structure referenced from Randy's demos
 // Thank you Randy
@@ -14,7 +14,7 @@ let mode = "grabIceBlock" // grabIceBlock mode, drop mode
 let pickedIceBlock = null
 
 // Main game function
-const towerClick = function (evt) {
+const iceDrillClick = function (evt) {
     const tower = evt.currentTarget
     if (mode === "grabIceBlock") {
         // Pickup mode
@@ -43,6 +43,6 @@ const tower2 = document.querySelector("#tower2")
 const tower3 = document.querySelector("#tower3")
 
 // Initiate on click event for all 3 towers
-tower1.onclick = towerClick
-tower2.onclick = towerClick
-tower3.onclick = towerClick
+tower1.onclick = iceDrillClick
+tower2.onclick = iceDrillClick
+tower3.onclick = iceDrillClick
