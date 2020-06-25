@@ -1,5 +1,5 @@
 // Intro message in console
-console.log("Hello, friend! Please click on a colored disc to start game...")
+console.log("Hello, friend! The object of this game is to stack the colored discs on top of eachother in order from -top to bottom- smallest to largest. Please click on a colored disc to start game...")
 
 // Structure referenced from Randy's demos
 // Thank you Randy
