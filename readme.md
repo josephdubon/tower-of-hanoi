@@ -26,22 +26,17 @@ https://josephdubon.gitlab.io/tower-of-hanoi-partner-project
     2. Provide a way to "drop" the disc on top of another tower, if the rules allow
         a. Click handler (same as top)
         b. See if the disc to drop is smaller than the topmost disc on the tower
-            ?? How do we get the top disc ??
                 The topmost disc is the last element child
                     tower.lastElementChild()
-
-if (pickedDisc < tower.lastElementChild() {
-    // do something
-
-}
-
             ?? How do we compare the widths of the two discs ??
                 disc1.dataset.width < disc3.dataset.width
         c. If so, add the disc to the tower
             tower.appendChild(disc)
     3. Check to see if the game is over --"winning condition"
         a. If all four discs are in the third tower, the game is over
-            tower3.childElementCount === 4
+            function youWon(iceDrillClick)
+    if (tower3.childElementCount === 4) {
+        console.log("You won!!")
 
 ### Notes
 If you'd like to learn more about the game, you can read its Wikipedia article
