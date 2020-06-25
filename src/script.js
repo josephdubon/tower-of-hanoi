@@ -13,6 +13,12 @@ console.log("Hello, friend! The object of this game is to stack the colored disc
 let mode = "grabIceBlock" // grabIceBlock mode, drop mode
 let pickedIceBlock = null
 
+// Winning condition / statement
+function youWon(iceDrillClick) {
+    if (tower3.childElementCount === 4) {
+        console.log("You won!!")
+    }
+}
 // Main game function
 const iceDrillClick = function (evt) {
     const tower = evt.currentTarget
@@ -32,6 +38,8 @@ const iceDrillClick = function (evt) {
         // Drop mode
         console.log("You placed your disc on " + tower.id + "." + " Please click on another disc.")
         tower.append(pickedIceBlock)
+        // Run winning condition
+        youWon()
         // Declare grabIceBlock mode
         mode = "grabIceBlock"
     }
@@ -41,6 +49,9 @@ const iceDrillClick = function (evt) {
 const tower1 = document.querySelector("#tower1")
 const tower2 = document.querySelector("#tower2")
 const tower3 = document.querySelector("#tower3")
+const hand = document.querySelector("hand")
+
+
 
 // Initiate on click event for all 3 towers
 tower1.onclick = iceDrillClick

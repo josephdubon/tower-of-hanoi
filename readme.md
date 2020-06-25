@@ -22,10 +22,8 @@ https://josephdubon.gitlab.io/tower-of-hanoi-partner-project
         a. Click handler on each tower
          -- tower.addEventListener("click", ___)
         b. "Pick up" the topmost disc on the tower
-            ?? How do we pick up the "topmost" disc ??
-                The topmost disc is the last element child
-                    tower.lastElementChild()
-    2. Provide a way to "drop" the disc on top of another tower, if the rules alow
+            tower.lastElementChild()
+    2. Provide a way to "drop" the disc on top of another tower, if the rules allow
         a. Click handler (same as top)
         b. See if the disc to drop is smaller than the topmost disc on the tower
             ?? How do we get the top disc ??
