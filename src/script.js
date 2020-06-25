@@ -10,19 +10,19 @@ console.log("Hello, friend! The object of this game is to stack the colored disc
 // Jennifer Schneider (jennmac20123 @yahoo.com)
 
 // Declare variables
-let mode = "pickup" // pickup mode, drop mode
-let pickedDisc = null
+let mode = "grabIceBlock" // grabIceBlock mode, drop mode
+let pickedIceBlock = null
 
 // Main game function
 const towerClick = function (evt) {
     const tower = evt.currentTarget
-    if (mode === "pickup") {
+    if (mode === "grabIceBlock") {
         // Pickup mode
         const disc = tower.lastElementChild
         if (disc) {
             console.log(disc.id + " is now your disc. Please click on a tower!")
-            pickedDisc = disc
-            document.getElementById("hand").append(pickedDisc)
+            pickedIceBlock = disc
+            document.getElementById("hand").append(pickedIceBlock)
             // Declare drop mode
             mode = "drop"
         } else {
@@ -31,9 +31,9 @@ const towerClick = function (evt) {
     } else {
         // Drop mode
         console.log("You placed your disc on " + tower.id + "." + " Please click on another disc.")
-        tower.append(pickedDisc)
-        // Declare pickup mode
-        mode = "pickup"
+        tower.append(pickedIceBlock)
+        // Declare grabIceBlock mode
+        mode = "grabIceBlock"
     }
 }
 
@@ -46,4 +46,3 @@ const tower3 = document.querySelector("#tower3")
 tower1.onclick = towerClick
 tower2.onclick = towerClick
 tower3.onclick = towerClick
-
