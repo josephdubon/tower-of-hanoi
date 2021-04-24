@@ -11,8 +11,6 @@ No disk may be placed on top of a smaller disk.
 
 ## Student Team
 Joseph Dubon (josephdubon@pm.me)
-and
-Jennifer Schneider (jennmac20123@yahoo.com)
 
 ## GitLab Pages URL
 https://josephdubon.gitlab.io/tower-of-hanoi-partner-project
