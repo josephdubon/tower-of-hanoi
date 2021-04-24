@@ -12,8 +12,8 @@ No disk may be placed on top of a smaller disk.
 ## Student Team
 Joseph Dubon (josephdubon@pm.me)
 
-## GitLab Pages URL
-https://josephdubon.gitlab.io/tower-of-hanoi-partner-project
+## GitHub Pages URL
+https://josephdubon.github.io/tower-of-hanoi/
 
 ### Assessment Development Plan
     1. Provide a way to select a disc from the top of a tower
@@ -40,18 +40,13 @@ https://josephdubon.gitlab.io/tower-of-hanoi-partner-project
 If you'd like to learn more about the game, you can read its Wikipedia article
 https://en.wikipedia.org/wiki/Tower_of_Hanoi
 
-Pair Programming
-You will work in pairs to create a JavaScript version of the Tower of Hanoi.
-
-Your submission should be entirely the work of you and your partner - (don't copy a solution written by someone else).
-
-Hints
 Make each tower a flex box that stacks elements from bottom to top using the following CSS properties:
 {
     display: flex;  
     flex-direction: column-reverse;  
     align-items: center;
 }
+
 You will want to have the player click twice for each move - first to pick the source tower, second to pick the destination tower. Use a variable to keep track of which mode the player is in.
 
 Add a click handler to each of the three towers. Use event.currentTarget inside the event handler to determine which tower was clicked.
@@ -63,25 +58,6 @@ Use the DOM property lastElementChild to find the disk on top of a tower.
 Use the DOM method appendChild() to add a disk to a tower (you have already used this method many times in previous assignments). Note that when you use appendChild on an element that already has a parent, it is automatically removed from the old parent and added to the new one.
 
 Use the Element.clientWidth property to get the width of your disk elements.
-
-Submission (Team Leader Only)
-Push your code into your GitLab repository and deploy it via GitLab pages.
-Once you have the GitLab Pages url (ex: https://username.gitlab.io/hanoi/), go back to your code to create a README.md file, and put the GitLab Pages url, your group's thought processes/development plans, and your groupmates' names as the contents.
-Push your code to your GitLab repo once more.
-In Canvas, please submit your Gitlab Repo url and make a comment that has all your groupmates' names.
-In GitLab, add KA_Grading as a member on your project with "Reporter" permission.
-
-#### How to Break Down a Project
-
-	1. Read the requirements document in detail.
-		a. Take notes of important points.
-		b. Write down your questions.
-	2. Answer your questions!
-	3. Make a development plan.
-		a. Describe the entire behavior of the program in 3 (or at most 4) steps. Don't use any JavaScript words!
-		b. Break down each item into 4 (or 4) smaller steps by asking the question, "How?".
-		c. Repeat until it's obvious how to turn the step into JS code.
-    4. Write the code!
 
 #### License
 MIT License
